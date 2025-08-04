@@ -6,7 +6,7 @@ app = Flask(__name__)# URL Routing — Home Page
 
 @app.route('/')
 def index():
-    return "Welcome to the Flask App!"
+    return "Sample Static App!"
 
 if __name__ == '__main__':
     # Set the environment variable for Flask
